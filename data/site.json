@@ -1,0 +1,7 @@
+{
+    "title": "My Collection",
+    "nav": [
+        { "name": "Home", "url": "/" },
+        { "name": "About", "url": "/about/" }
+    ]
+}

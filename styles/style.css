@@ -1,0 +1,10 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero-image{
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}

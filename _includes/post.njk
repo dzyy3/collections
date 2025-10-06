@@ -1,0 +1,18 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+    {% if heroImage %}
+        <img class="hero-image" src="/assets/sky.jpg" alt="Sky with clouds hero image">
+    {% endif %}
+
+    {% if featured %}
+        <p> Featured Post </p>
+    {% endif %}
+
+
+    <article>
+        <h2>{{ title }}</h2>
+        {{ content | safe }}
+    </article>
+{% endblock %}
