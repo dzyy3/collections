@@ -9,3 +9,5 @@ tags: ["post", "one page"]
 This comic strip from the class Experimental Comics is based on an assignment where students were intructed to make a list of discontents through picture stories. 
 
 <img src="{{ '/assets/TheLastLobsterRoll.JPG' | prefixedUrl }}" alt="a comic about the overfishing of lobsters">
+
+<img class=gif src= "{{ '/assets/gif/leaf.gif' | prefixedUrl }}" alt="sparkles">

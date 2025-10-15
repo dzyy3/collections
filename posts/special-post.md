@@ -20,3 +20,5 @@ This is a project from the First-Year Visual Studio course. The original format 
 <img src="{{ '/assets/ratComic/10.png' | prefixedUrl }}" alt="A continuation of the shoe searching. At the bottom the boots with cat socks are in color and the monologe is suprised!">
 <img src="{{ '/assets/ratComic/11.png' | prefixedUrl }}" alt="The two characters converse and the girl says that she saw a rat couple like the two characters. Character one asks if he's being called a Rat.">
 <img src="{{ '/assets/ratComic/12.png' | prefixedUrl }}" alt="Both characters are drawn as rats and the girl rat says Yes!">
+
+<img class=gif src= "{{ '/assets/gif/confetti.gif' | prefixedUrl }}" alt="sparkles">

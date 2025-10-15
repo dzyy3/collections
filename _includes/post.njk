@@ -17,5 +17,15 @@
     <article>
         <h2>{{ title }}</h2>
         {{ content | safe }}
+
+
+        {% if tags %}
+        <p class="post-tags">Tags:
+            {% for t in tags %}
+                <span class="post-tag">{{ t }}</span>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+        {% endif %}
+        
     </article>
 {% endblock %}

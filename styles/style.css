@@ -26,3 +26,16 @@ li a {
 li a:hover {
     color: rgb(117, 137, 161);
 }
+
+/* Filter UI */
+.filters {
+    margin: 18px 0;
+}
+.post-tag {
+    display: inline-block;
+    background: #da754e; color: #d1d1d1;
+    border-radius: 8px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-size: 0.9rem;
+ }
