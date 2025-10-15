@@ -13,6 +13,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("prefixedUrl", (url, prefix) => {
     const finalPrefix = prefix || (isProduction ? "/collections/" : "/");
     return finalPrefix + url.replace(/^\/+/, "");
+   });
+
+  //to shorten the post conent summary {{ content | truncate }}
+  eleventyConfig.addFilter("truncate", (str, len = 100) =>{
+    return str.length > len ? str.substring(0, len) + '...' : str;
   });
 
 	//tells eleventy to output to docs instead of _site
