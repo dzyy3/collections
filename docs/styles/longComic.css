@@ -1,0 +1,4 @@
+.featured img {
+    max-width: 20%;
+    display: grid;
+}

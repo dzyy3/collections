@@ -1,0 +1,17 @@
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(245, 245, 220, 0.8); /* Light border */
+    margin-top: 60px;
+}
+
+main img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(46, 136, 172, 0.25); /* Soft shadow */
+}

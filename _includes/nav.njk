@@ -1,8 +1,22 @@
- <!-- _includes/nav.njk -->
 <nav>
-	<ul>
-	  {% for item in site.nav %}
-	  <li><a href="{{ item.url | prefixedUrl }}">{{ item.name }}</a></li>
-	  {% endfor %}
+	<ul class="site-nav">
+		<!-- I had to troubleshoot the nav with CoPilot since it wouldn't show up after a great deal of troubleshooting. It seems like there is an isusue with Nav not being present at build time so it never added anything in the html. -->
+
+
+		{% if site.nav and site.nav | length > 0 %}
+			{% for item in site.nav %}
+				<li{% if page.url == item.url %} class="active"{% endif %}>
+					<a href="{{ item.url | prefixedUrl }}">{{ item.name }}</a>
+				</li>
+			{% endfor %}
+		{% else %}
+			<li{% if page.url == '/' %} class="active"{% endif %}>
+				<a href="{{ '/' | prefixedUrl }}">Home</a>
+			</li>
+		{% endif %}
+
+		<li class="brand">
+			<a href="{{ '/' | prefixedUrl }}">{{ site.title }}</a>
+		</li>
 	</ul>
 </nav>

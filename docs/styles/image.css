@@ -1,0 +1,9 @@
+/* General image styling for blog posts */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(46, 136, 172, 0.25); /* Soft shadow */
+}

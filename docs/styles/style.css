@@ -1,5 +1,14 @@
+html {
+    background: url(/assets/tileBckgrnd.jpg);
+}
+
 h1{
     font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px
 }
 
 .hero-image{
@@ -7,4 +16,13 @@ h1{
     height: 300px;
     object-fit: cover;
     object-position: center;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(22, 70, 124);
+}
+
+li a:hover {
+    color: rgb(117, 137, 161);
 }

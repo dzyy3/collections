@@ -6,12 +6,17 @@
     <title></title>
 
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/nav.css">
 </head>
 <body>
-     <!-- _includes/nav.njk -->
-<nav>
-	<ul>
-	  
+    <nav>
+	<ul class="site-nav">
+		<!-- I had to troubleshoot the nav with CoPilot since it wouldn't show up after a great deal of troubleshooting. It seems like there is an isusue with Nav not being present at build time so it never added anything in the html. -->
+		
+			<li>
+				<a href="/">Home</a>
+			</li>
+		
 	</ul>
 </nav>
 

@@ -2,16 +2,15 @@
 
 {% block content %}
 
+    <link rel="stylesheet" href="{{'/styles/image.css' | prefixedUrl }}">
+
+
     {% if heroImage %}
         <img class="hero-image" src="/assets/sky.jpg" alt="Sky with clouds hero image">
     {% endif %}
 
     {% if featured %}
         <p class="featured"> Featured Post </p>
-    {% endif %}
-
-    {% if subtitle %}
-        <h3>{{ subtitle }}</h3>
     {% endif %}
 
 
