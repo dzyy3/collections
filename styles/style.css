@@ -1,5 +1,5 @@
 html {
-    background: url(/assets/tileBckgrnd.jpg);
+    background: url("{{ '/assets/tileBckgrnd.jpg' | prefixedURL }}");
 }
 
 h1{
