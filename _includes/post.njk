@@ -6,7 +6,7 @@
 
 
     {% if heroImage %}
-        <img class="hero-image" src="/assets/sky.jpg" alt="Sky with clouds hero image">
+        <img class="hero-image" src="{{ '/assets/sky.jpg' | prefixedUrl }}" alt="Sky with clouds hero image">
     {% endif %}
 
     {% if featured %}
